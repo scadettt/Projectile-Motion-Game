@@ -8,15 +8,15 @@ SC07, Team 7J <br/>
 1007208 Issac Anand Rajaram  <br/>
 
  
-Objective: 
+Objective: <br/>
 This game is aimed to help prospective physics students by exposing them to the physics concept of projectile motions. This game will allow students to visualise projectile motions with different initial velocities and angles. Students can therefore try to apply the physics concepts learnt in this game and get them more interested in studying physics. 
 
-Description: 
+Description: <br/>
 This game starts with the system telling the user the distance between the cannon and the target. From there, it prompts the user to input the velocity and angle required to fire the cannon to the target. Thereafter, stars are awarded to the user depending on how close the cannon ball's trajectory is to the target. The closer the trajectory path of the cannonball, the more stars are awarded. 
 
  
 
-Documentation: 
+Documentation: <br/>
 It is required for this game to use the Turtle, random and math library. 
 
 welcome_text(). This function displays the message “Welcome! Would you like to play?”, and then prompts user if they want to play. <br/>
@@ -29,7 +29,7 @@ create_cannon(). This function creates a cannon object and sets random coordinat
 
 create_target(). This function creates a target object and sets random coordinates for the target object within the range of the screen. <br/>
 
-text_box(x_distance, y_distance, u, u_angle). This function takes in 4 parameters. x_distance and y_distance are the differences between the x and y coordinates of the target and on respectively. u is the user input for initial velocity in m/s, and u_angle is the angle to be launched relative to the ground in degrees. This function will display the following message: 
+text_box(x_distance, y_distance, u, u_angle). This function takes in 4 parameters. x_distance and y_distance are the differences between the x and y coordinates of the target and on respectively. u is the user input for initial velocity in m/s, and u_angle is the angle to be launched relative to the ground in degrees. This function will display the following message: <br/>
 
 The horizontal distance is (x_distance)m. <br/>
 The vertical distance is (y_distance)m. <br/>
@@ -57,7 +57,7 @@ how_many_stars(dist). This function takes in variable dist, which is the values 
 
 star_shape(). This function draws the shape of the star using the turtle library when executed. The inside of the star will be filled with color as well. 
 
-draw_stars(n). This function takes in n, the value returned from how_many_stars().  It will display a certain number of stars depending on the value of n. If the trajectory is too far away from the target, no stars will be given. Instead, it will display: 
+draw_stars(n). This function takes in n, the value returned from how_many_stars().  It will display a certain number of stars depending on the value of n. If the trajectory is too far away from the target, no stars will be given. Instead, it will display: <br/>
 
 You Suck! <br/>
 
