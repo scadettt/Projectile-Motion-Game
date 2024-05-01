@@ -19,7 +19,7 @@ This game starts with the system telling the user the distance between the canno
 ## Documentation: <br/>
 It is required for this game to use the Turtle, random and math library. <br/>
 
-__welcome_text():__ <br/>
+ ### welcome_text(): <br/>
 This function displays the message “Welcome! Would you like to play?”, and then prompts user if they want to play. <br/>
 
 __draw_grid(x, y, grid_size):__ <br/>
