@@ -51,13 +51,18 @@ This function takes in ux, uy, and cannon_initial_pos. ux and uy are the horizon
 The path of trajectory is calculated using the following equations,  <br/>
 
 sx = uxt + cannoninitialpos[0] <br/>
- 
 sy = uyt − g2t2 + cannoninitialpos[1] <br/>
  
 where sx is the horizontal distance and sy is the vertical distance.  
 
-The function traj_tracker() is called to draw the path of the trajectory using dotted lines. <br/>
-The distance between each point on the line of trajectory and the target is calculated and added to the list, distance. The min() function is used to find the closest distance, and cal_traj(ux, uy, cannon_initial_pos) will return it. <br/>
+traj_tracker(): <br/>
+This function is called to draw the path of the trajectory using dotted lines. The distance between each point on the line of trajectory and the target is calculated and added to the list, distance.<br/>
+
+min(): <br/>
+This function is used to find the closest distance. <br/>
+
+cal_traj(ux, uy, cannon_initial_pos): <br/>
+This function will return the closest distance based on the output from min(). <br/>
 
 traj_tracer(k, sx, sy): <br/>
 This function takes in 3 parameters, k, sx, and sy. k is a variable that allows the line to be dotted, and parameters sx and sy are the values calculated in the calc_traj(ux, uy, cannon_initial_pos) function. This function moves the cannon object to the next instantaneous coordinates, drawing a dotted trajectory line along the way. <br/>
