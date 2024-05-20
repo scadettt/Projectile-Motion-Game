@@ -7,6 +7,8 @@ SC07, Team 7J <br/>
 1007136 Ooi Zher Xian  <br/>
 1007208 Issac Anand Rajaram  <br/>
 
+## Video Link: https://youtu.be/62xG6VuPRIc <br/>
+
  
 ## Objective: <br/>
 This game is aimed to help prospective physics students by exposing them to the physics concept of projectile motions. This game will allow students to visualise projectile motions with different initial velocities and angles. Students can therefore try to apply the physics concepts learnt in this game and get them more interested in studying physics. 
