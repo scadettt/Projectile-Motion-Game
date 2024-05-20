@@ -7,7 +7,8 @@ Tan Jie Ping  <br/>
 Ooi Zher Xian  <br/>
 Issac Anand Rajaram  <br/>
 
-## Video Link: https://youtu.be/62xG6VuPRIc <br/>
+## Video Link: <br/>
+https://youtu.be/62xG6VuPRIc <br/>
 
  
 ## Objective: <br/>
