@@ -1,11 +1,11 @@
 # 10.014 CTD 1D Project: Projectile-Motion-Game
 
 SC07, Team 7J <br/>  
-1006927 Wong Jun Ming, Ivan  <br/>
-1006934 Ho Atsadet  <br/>
-1006983 Tan Jie Ping  <br/>
-1007136 Ooi Zher Xian  <br/>
-1007208 Issac Anand Rajaram  <br/>
+Wong Jun Ming, Ivan  <br/>
+Ho Atsadet  <br/>
+Tan Jie Ping  <br/>
+Ooi Zher Xian  <br/>
+Issac Anand Rajaram  <br/>
 
 ## Video Link: https://youtu.be/62xG6VuPRIc <br/>
 
